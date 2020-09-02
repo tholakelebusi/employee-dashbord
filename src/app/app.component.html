@@ -1,0 +1,29 @@
+
+ <p>{{ title }}</p>
+   
+
+<div *ngFor="let todo of todolist">
+    <div class="all">
+   
+<img class="photo" src="{{todo.myimage}}">
+    
+
+      <div class="name">
+        
+        {{todo.name}}
+        {{todo.surname}}
+        </div>
+
+        <div class="postion">
+          {{todo.position}}
+</div>
+          <div class="age">
+           {{todo.age}}
+          </div>
+
+ <button class="btn" mat-button>Update</button>
+<button class="btn" mat-button>Delete</button>
+       
+
+</div>
+</div>
